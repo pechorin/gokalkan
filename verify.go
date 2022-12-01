@@ -3,7 +3,7 @@ package gokalkan
 import (
 	"encoding/base64"
 
-	"github.com/gokalkan/gokalkan/ckalkan"
+	"github.com/pechorin/gokalkan/ckalkan"
 )
 
 // Verify обеспечивает проверку подписи CMS в base64.

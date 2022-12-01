@@ -3,7 +3,7 @@ package gokalkan
 import (
 	"encoding/base64"
 
-	"github.com/gokalkan/gokalkan/ckalkan"
+	"github.com/pechorin/gokalkan/ckalkan"
 )
 
 func (cli *Client) HashSHA256(data []byte) (hashed []byte, err error) {

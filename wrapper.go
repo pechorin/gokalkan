@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/gokalkan/gokalkan/ckalkan"
+	"github.com/pechorin/gokalkan/ckalkan"
 )
 
 // Kalkan - это обертка над методами KalkanCrypt.
@@ -79,4 +79,8 @@ func NewClient(opts ...Option) (*Client, error) {
 	}
 
 	return cli, nil
+}
+
+func (cli *Client) GetCKalkanClient() (*ckalkan.Client) {
+  return cli.kc
 }

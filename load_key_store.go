@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/gokalkan/gokalkan/ckalkan"
+	"github.com/pechorin/gokalkan/ckalkan"
 )
 
 // LoadKeyStore загружает PKCS12.
